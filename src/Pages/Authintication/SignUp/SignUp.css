@@ -1,0 +1,53 @@
+.signup {
+  background-color: rgb(193, 244, 164);
+  width: 25rem;
+  height: 30rem;
+  margin-top: 10%;
+  padding: 30px 30px 30px 30px;
+}
+h4 {
+  color: blue;
+}
+
+.input,
+.input_1,
+.verify_mail,
+.phone,
+.verify_password,
+.verify_password_1 {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+}
+.input > input,
+.input_1 > input,
+.verify_mail > input,
+.phone > input,
+.verify_password > input,
+.verify_password_1 > input {
+  width: 400px;
+}
+input {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.btn_btn_1 {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(80, 80, 255);
+  color: white;
+  font-style: oblique;
+  font-size: large;
+  border-radius: 10px;
+}
+.btn_btn_1:hover {
+  background-color: olivedrab;
+}
+.btn_btn_2 {
+  background-color: rgb(193, 244, 164);
+  font-size: large;
+  color: blueviolet;
+}
